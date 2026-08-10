@@ -39,7 +39,7 @@ The `hostname` command identifies the Windows Server computer, while `systeminfo
 
 This information was used to confirm that the correct Windows Server system was being used for the hardening lab.
 
-![Server Identity and System Information](../screenshots/01-01-Server-System-Information.png)
+![Server Identity and System Information](../screenshots/screenshots/01-01-Server-System-Information)
 
 ---
 
