@@ -36,7 +36,7 @@ The results displayed previously installed Windows updates and security updates.
 
 Reviewing installed updates establishes the server's patching baseline and helps identify whether security updates have been applied.
 
-![Installed Windows Updates](../screenshots/05-installed-windows-updates.png)
+![Installed Windows Updates](../screenshots/02-01-Installed-Windows-Updates.png)
 
 ---
 
@@ -53,7 +53,7 @@ The results showed that the Domain, Private, and Public firewall profiles were e
 
 At the time of the baseline assessment, the default inbound and outbound actions were displayed as `NotConfigured`.
 
-![Windows Firewall Baseline](../screenshots/06-windows-firewall-baseline.png)
+![Windows Firewall Baseline](../screenshots/screenshots/02-02-Windows-Firewall-Baseline.png)
 
 Additional firewall information was reviewed to better understand the effective firewall configuration:
 
