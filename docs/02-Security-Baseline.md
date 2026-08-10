@@ -53,7 +53,7 @@ The results showed that the Domain, Private, and Public firewall profiles were e
 
 At the time of the baseline assessment, the default inbound and outbound actions were displayed as `NotConfigured`.
 
-![Windows Firewall Baseline](../screenshots/screenshots/02-02-Windows-Firewall-Baseline.png)
+![Windows Firewall Baseline](../screenshots/02-02-Windows-Firewall-Baseline.png)
 
 Additional firewall information was reviewed to better understand the effective firewall configuration:
 
@@ -93,7 +93,7 @@ Select-Object AntivirusEnabled,
 
 This command identifies whether major Microsoft Defender protection components are active.
 
-![Microsoft Defender Baseline](../screenshots/07-microsoft-defender-baseline.png)
+![Microsoft Defender Baseline](../screenshots/02-03-Microsoft-Defender-Baseline.png)
 
 Additional Defender preferences were reviewed using:
 
@@ -123,7 +123,7 @@ Get-ItemProperty `
 
 A value of `0` indicates that Remote Desktop connections are allowed, while a value of `1` indicates that Remote Desktop connections are denied.
 
-![Remote Desktop Baseline](../screenshots/08-remote-desktop-baseline.png)
+![Remote Desktop Baseline](../screenshots/02-04-Remote-Desktop-Baseline.png)
 
 Network Level Authentication was also reviewed:
 
@@ -162,7 +162,7 @@ Get-ADGroupMember -Identity "Enterprise Admins"
 
 The baseline review showed that the built-in `Administrator` account held privileged administrative access.
 
-![Privileged Administrative Accounts](../screenshots/09-privileged-administrative-accounts.png)
+![Privileged Administrative Accounts](../screenshots/02-05-Privileged-Administrative-Accounts.png)
 
 This information was documented so privileged account access could be evaluated during the hardening phase.
 
@@ -182,7 +182,7 @@ Reviewing active services helps identify unnecessary services that may increase 
 
 No services were disabled during the baseline assessment.
 
-![Running Services Baseline](../screenshots/10-running-services-baseline.png)
+![Running Services Baseline](../screenshots/02-06-Running-Services-Baseline.png)
 
 ---
 
@@ -196,7 +196,7 @@ auditpol /get /category:*
 
 This command displays the auditing configuration for security-related activities such as logon events, account management, policy changes, privilege use, and system events.
 
-![Windows Audit Policy Baseline](../screenshots/11-audit-policy-baseline.png)
+![Windows Audit Policy Baseline](../screenshots/02-07-Audit-Policy-Baseline.png)
 
 The results were retained as a baseline before additional security auditing was configured later in the hardening process.
 
@@ -239,7 +239,7 @@ The baseline domain policy included:
 
 The most significant findings were the **7-character minimum password length** and an **account lockout threshold of 0**, meaning failed authentication attempts did not trigger account lockout.
 
-![Password Policy Baseline](../screenshots/12-password-policy-baseline.png)
+![Password Policy Baseline](../screenshots/02-08-Password-Policy-Baseline.png)
 
 These findings were carried forward into the hardening phase for remediation.
 
