@@ -113,5 +113,3 @@ The environment review confirmed that:
 * The server belongs to the `harper.local` Active Directory domain.
 * Active Directory Domain Services is present in the environment.
 * Installed Windows Server roles and features can be identified for later security review.
-
-The environment was successfully documented and was ready for the initial security baseline assessment.
