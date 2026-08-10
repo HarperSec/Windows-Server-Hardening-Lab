@@ -257,7 +257,3 @@ The security baseline identified several areas that required further review or h
 * Running services required review for unnecessary functionality.
 * SMB configuration required review for legacy protocol support and security settings.
 * Firewall, Microsoft Defender, and Remote Desktop configurations required validation before making changes.
-
-No security settings were intentionally modified during the initial baseline assessment.
-
-The results established the **pre-hardening security posture** that would be used to evaluate the effectiveness of the security controls implemented later in the project.
