@@ -533,4 +533,3 @@ Key results included:
 * Reviewed SMB protocol and signing configuration.
 * Verified Windows Firewall, Microsoft Defender, Windows Update, and Remote Desktop security configurations before making unnecessary changes.
 
-The server remained operational as an Active Directory Domain Controller while its authentication, privileged-access, auditing, and PowerShell security controls were strengthened.
