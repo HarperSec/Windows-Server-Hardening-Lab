@@ -78,7 +78,7 @@ harper.local
 
 domain.
 
-![Active Directory Domain Configuration](../screenshots/03-domain-configuration.png)
+![Active Directory Domain Configuration](../screenshots/01-03-Domain-Configuration.png)
 
 ---
 
@@ -99,7 +99,7 @@ Reviewing installed roles is an important part of server hardening because unnec
 
 The results also confirmed the services required for the existing Active Directory lab environment.
 
-![Installed Windows Server Roles](../screenshots/04-installed-server-roles.png)
+![Installed Windows Server Roles](../screenshots/01-04-Installed-Server-Roles.png)
 
 ---
 
