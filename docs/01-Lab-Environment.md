@@ -39,7 +39,7 @@ The `hostname` command identifies the Windows Server computer, while `systeminfo
 
 This information was used to confirm that the correct Windows Server system was being used for the hardening lab.
 
-![Server Identity and System Information](../screenshots/screenshots/01-01-Server-System-Information)
+![Server Identity and System Information](../screenshots/01-01-Server-System-Information.png)
 
 ---
 
@@ -55,7 +55,7 @@ This command displays detailed network adapter information including the IPv4 ad
 
 Reviewing the network configuration is important before hardening a Domain Controller because Active Directory Domain Services relies heavily on properly configured networking and DNS.
 
-![Server Network Configuration](../screenshots/02-network-configuration.png)
+![Server Network Configuration](../screenshots/01-02-Network-Configuration.png)  
 
 ---
 
